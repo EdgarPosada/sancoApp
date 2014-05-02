@@ -1,10 +1,10 @@
 <?php
 	
-	$respuestaCorrecta = array('edgar','posada','gutierrez','rojas');
+	$respuestaCorrecta = array('edgar','posada','gutierrez','arent´t you');
 
 	print_r($respuestaCorrecta);
 
-	$otro = array('edgar','ramirez','gutierrez','rojas');
+	$otro = array('edgar','ramirez','gutierrez','aren´t you');
 
 	//for($i = 0; i < )
 	$cont = 0;

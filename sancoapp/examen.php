@@ -28,6 +28,7 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
 <link href="Content/ingles.css?v=qzNDGMSSU2446I1AfRDdl_9r4ONra-Bx07ahjN2Cuz81" rel="stylesheet"/>
 <script src="js/validaRespuesta.js"></script> 
+<script src="validaResp.js"></script> 
 <link rel="stylesheet" href="Content/css/myCss.css" rel="stylesheet" >
 
         
@@ -56,7 +57,7 @@
     <div class="row-fluid">
         <div class="span12 main" role="main">
             <section id="basic-form">
-                <form id="form-2" action="#" method="POST" name="formu">
+                <form id="form-2" action="validaRespuestas.php" method="POST" name="formu">
                     <div id="wizard-2" style="margin-left:20px;">
                         
                         <!--Section One-->
@@ -391,18 +392,18 @@
                                     </div>
                                     
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press13()" type="radio" name="que13" value="aren't you" />
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">aren't you</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press13()" type="radio" name="que13" value="aren´t you" />
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">aren´t you</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press13()" type="radio" name="que13" value="isn't it"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">isn't it</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press13()" type="radio" name="que13" value="isn´t it"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">isn´t it</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press13()" type="radio" name="que13" value="don't you"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">don't you</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press13()" type="radio" name="que13" value="don´t you"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">don´t you</label>
                                     </div>
                                     <!--FIN DE PREGUNTA 13-->
                                     
@@ -469,18 +470,18 @@
                                     </div>
                                     
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press16()" type="radio" name="que16" value="didn't have to" />
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">didn't have to</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press16()" type="radio" name="que16" value="didn´t have to" />
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">didn´t have to</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press16()" type="radio" name="que16" value="mustn't"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">mustn't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press16()" type="radio" name="que16" value="mustn´t"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">mustn´t</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press16()" type="radio" name="que16" value="hadn't"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">hadn't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press16()" type="radio" name="que16" value="hadn´t"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">hadn´t</label>
                                     </div>
                             <!-- FIN DE PREGUNTA 16-->
                                     
@@ -569,8 +570,8 @@
                                     </div>
                                     
                                     <div style="position: relative; margin-left: 6%;  height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press20()" type="radio" name="que20" value="i'll come" />
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">i'll come</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press20()" type="radio" name="que20" value="i´ll come" />
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">i´ll come</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
@@ -759,8 +760,8 @@
                                     </div>
                                     
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press27()" type="radio" name="que27" value="If i were you i'd" />
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">If i were you i'd</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press27()" type="radio" name="que27" value="If i were you i´d" />
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">If i were you i´d</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;  height: 20px; width: 330px; top: -30px;">
@@ -769,8 +770,8 @@
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press27()" type="radio" name="que27" value="Don't forget"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">Don't forget</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press27()" type="radio" name="que27" value="Don´t forget"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">Don´t forget</label>
                                     </div>
                                     <!--FIN DE PREGUNTA 27-->
                                     
@@ -789,8 +790,8 @@
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press28()" type="radio" name="que28" value=" If i were you l'd go"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;"> If i were you l'd go</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press28()" type="radio" name="que28" value="If i were you l´d go"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;"> If i were you l´d go</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
@@ -844,8 +845,8 @@
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;  height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press30()" type="radio" name="que30" value="id being"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">id being</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press30()" type="radio" name="que30" value="is being"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">is being</label>
                                     </div>
                                     <!--FIN DE PREGUNTA 30-->
                                    </div>
@@ -872,8 +873,8 @@
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press31()" type="radio" name="que31" value="hadn't seen"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">hadn't seen</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press31()" type="radio" name="que31" value="hadn´t seen"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">hadn´t seen</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
@@ -1044,18 +1045,18 @@
                                     </div>
                                     
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press38()" type="radio" name="que38" value="can't" />
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">can't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press38()" type="radio" name="que38" value="can´t" />
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">can´t</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press38()" type="radio" name="que38" value="mustn't"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">mustn't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press38()" type="radio" name="que38" value="mustn´t"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">mustn´t</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press38()" type="radio" name="que38" value="mightn't"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">mightn't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press38()" type="radio" name="que38" value="mightn´t"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">mightn´t</label>
                                     </div>
                                     <!--FIN DE PREGUNTA 38-->
                                     
@@ -1069,18 +1070,18 @@
                                     </div>
                                     
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press39()" type="radio" name="que39" value="couldn't" />
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">couldn't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press39()" type="radio" name="que39" value="couldn´t" />
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">couldn´t</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;  height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press39()" type="radio" name="que39" value="shouln't"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">shouln't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press39()" type="radio" name="que39" value="shouln´t"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto; ">shouln´t</label>
                                     </div>
 
                                     <div style="position: relative; margin-left: 6%;   height: 20px; width: 330px; top: -30px;">
-                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press39()" type="radio" name="que39" value="wouldn't"/>
-                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">wouldn't</label>
+                                        <input style="background-color: threedface; width: auto; height: auto;  margin-left: 0%;"  id="" onclick="press39()" type="radio" name="que39" value="wouldn´t"/>
+                                        <label style="left: 15px; top: -15px; position: relative; width: auto; height: auto;">wouldn´t</label>
                                     </div>
                                     <!--FIN DE PREGUNTA 39-->
                                     
@@ -1457,7 +1458,7 @@
                 },
                 onFinished: function (event, currentIndex)
                 {
-                    alert("Submitted!");
+                    muestra();
                 }
             });
 
@@ -1511,7 +1512,7 @@
                 },
                 onFinished: function (event, currentIndex)
                 {
-                    alert("Submitted!");
+                    alert("Subm!");
                 }
             }).validate({
                 errorPlacement: errorPlacement,
@@ -1561,6 +1562,8 @@
             });
         });
     </script>
+
+
     </body>
 </html>
 
